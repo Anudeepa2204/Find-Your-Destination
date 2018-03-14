@@ -1,0 +1,201 @@
+<style>
+.title1{
+	font-family: Papyrus, fantasy;
+	font-size: 40px;
+	font-style: normal;
+	padding-top:30px;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	text-align: left;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.floatleft {
+    float:left; 
+    width: 50%;
+    height: 400px;
+}
+
+.floatright {
+float: right;
+    height: 400px;
+    width: 50%;
+}
+
+
+.previous{
+	float:right;
+	margin-bottom:50px;
+}
+.founders{
+	background-color: #f0f0;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+.container{
+	background-color: inherit;
+	float:left;
+	
+}
+
+.loginButton{
+	background-color: #4CAF50;
+    height: 25px;
+    border: none;
+    width: 75px;
+}
+
+div.tab button.home {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #fff;
+    border-top: none;
+}
+
+.subhead{
+	
+}
+
+.footer{
+        width: 100%;
+        position: fixed;        
+        background: #fff;
+        padding: 10px 0;
+		padding-left:600px;
+        color: #000;
+        bottom: 0;
+    }
+.titleimage{
+	padding-left: 400px;
+	float:left;
+	padding-top: 0px;
+}
+.mySlides{
+	width:100%;
+	height:400px;
+	padding-top:5px;
+}
+.rightbutton,.leftbutton{
+	height:9px;
+	width:6px;
+	color: #fff!important;
+	border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.rightbutton{
+	position: absolute;
+    top: 75%;
+    right: 8px;
+    transform: translate(0%,-50%);
+}
+.leftbutton{
+	position: absolute;
+    top: 75%;
+    left: 8px;
+    transform: translate(0%,-50%);
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+</style>
+
+	
